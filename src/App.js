@@ -1,12 +1,14 @@
 import './App.css'
+import { Input } from './elements/Input'
+import { Title } from './elements/title'
 
 function App () {
   return (
     <div className='App'>
       <header className='App-header'>
-        <h1>
-          Bike React colaborativo prueba
-        </h1>
+        <Title>Bike React colaborativo prueba</Title>
+        <Input placeholder='prueba' />
+
       </header>
     </div>
   )
