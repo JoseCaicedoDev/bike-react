@@ -1,10 +1,10 @@
-/* import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap') */
 const theme = {
   background: '#233177',
-  fontPrimary: '#1CA0F6',
-  fontSecundary: '#808080',
-  footer: '#222222',
-  fontFamily: '\'Roboto\', sanf-serif'
+  backgroundGray: '#D9D9D9',
+  backgroundBlue: '#1A67BB',
+  backgroundBtn: '#1F86BF',
+  fontPrimary: '#ffffff',
+  fontFamily: '\'Inter\', sanf-serif'
 }
 
 export default theme
