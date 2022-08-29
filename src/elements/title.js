@@ -6,5 +6,4 @@ const Title = styled.h1`
     font-size: 8rem;
     color:  ${theme.fontPrimary};
 `
-
 export { Title }

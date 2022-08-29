@@ -3,7 +3,11 @@ import theme from '../../themas'
 
 const ContainerNavProcess = styled.div`
   height: 5rem;
-  border: 10px solid green;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  margin-bottom: 9rem;
+  padding-top: 5rem;
 `
 
 const Nav = styled.div`

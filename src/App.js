@@ -4,6 +4,7 @@ import Container from './elements/Container'
 // import { Title } from './elements/title'
 import { ContainerNavProcess, Nav, Li, BarLine } from './elements/process/ContainerNavProcess'
 import { ImgContainer } from './elements/StatusIMG'
+import { TitleState } from './elements/TitleState'
 
 function App () {
   return (
@@ -18,6 +19,8 @@ function App () {
         </Nav>
       </ContainerNavProcess>
       <ImgContainer />
+      <TitleState>Su vehiculo ha sido recibido</TitleState>
+      <TitleState><a href='/' target='_blank' rel='noopener noreferrer nofollow'>Contacte al Mecanico</a></TitleState>
     </Container>
   )
 }
