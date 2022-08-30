@@ -20,7 +20,7 @@ function App () {
       </ContainerNavProcess>
       <ImgContainer />
       <TitleState>Su vehiculo ha sido recibido</TitleState>
-      <TitleState><a href='/' target='_blank' rel='noopener noreferrer nofollow'>Contacte al Mecanico</a></TitleState>
+      <TitleState><a href='#' target='_blank' rel='noopener noreferrer nofollow'>Contacte al Mecanico</a></TitleState>
     </Container>
   )
 }
