@@ -24,7 +24,6 @@ const Li = styled.li`
   height: 3.8rem;
   z-index: 2;
 `
-
 const BarLine = styled.div`
   position: absolute;
   width: 26.6rem;
@@ -33,5 +32,7 @@ const BarLine = styled.div`
   top: 1.7rem;
   z-index: 1;
 `
+
+// const Checked = (props) => { return()}
 
 export { ContainerNavProcess, Nav, Li, BarLine }

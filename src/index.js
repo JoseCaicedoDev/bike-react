@@ -7,7 +7,7 @@ import App from './App'
 import Home from './layouts/Home'
 import HomeClient from './layouts/HomeClient'
 import HomeUser from './layouts/HomeUser'
-import Status from './layouts/Status'
+import StateReception from './layouts/stateMaintenance/StateReception'
 import Login from './layouts/Login'
 import Register from './layouts/Register'
 
@@ -21,7 +21,7 @@ const Index = () => {
           <Route path='/home' element={<Home />} />
           <Route path='/homeUser' element={<HomeUser />} />
           <Route path='/homeClient' element={<HomeClient />} />
-          <Route path='/status' element={<Status />} />
+          <Route path='/status' element={<StateReception />} />
           <Route path='/login' element={<Login />} />
           <Route path='/register' element={<Register />} />
         </Routes>

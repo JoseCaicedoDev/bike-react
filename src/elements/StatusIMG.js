@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import image from '../resources/images/Ellipse6.png'
+// import image from '../resources/images/Ellipse6.png'
 
 const ImgContainer = styled.div`
   width: 28.2rem;
@@ -7,7 +7,12 @@ const ImgContainer = styled.div`
   object-position:center;
   border-radius: 50%;
   margin:auto;
-  background-image: url(${image});
 `
 
-export { ImgContainer }
+const Img = styled.img`
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+`
+
+export { ImgContainer, Img }
