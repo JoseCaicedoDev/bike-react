@@ -5,7 +5,6 @@ import { ImgContainer, Img } from '../elements/StatusIMG'
 import { TitleState } from '../elements/TitleState'
 
 function Status (props) {
-  console.log(props, 'hola')
   return (
     <Container>
       <ContainerNavProcess>
