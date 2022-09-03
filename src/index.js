@@ -7,7 +7,7 @@ import App from './App'
 import Home from './layouts/Home'
 import HomeClient from './layouts/HomeClient'
 import HomeUser from './layouts/HomeUser'
-import StateReception from './layouts/stateMaintenance/StateReception'
+import StateReception from './layouts/StateReception'
 import Login from './layouts/Login'
 import Register from './layouts/Register'
 

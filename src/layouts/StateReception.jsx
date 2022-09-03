@@ -1,13 +1,13 @@
 import React from 'react'
-import Status from '../Status'
-import image from '../../resources/images/Ellipse6.png'
-import image1 from '../../resources/images/Ellipse 7.png'
-import image2 from '../../resources/images/Ellipse 8.png'
-import image3 from '../../resources/images/Ellipse 9.png'
+import Status from '../elements/process/Status'
+import image from '../resources/images/Ellipse6.png'
+import image1 from '../resources/images/Ellipse 7.png'
+import image2 from '../resources/images/Ellipse 8.png'
+import image3 from '../resources/images/Ellipse 9.png'
 
 function StateReception () {
   const StatusDescription = {
-    CurrentStatus: 4
+    CurrentStatus: 2
   }
   const StatusImage = {
     1: image,

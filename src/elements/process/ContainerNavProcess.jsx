@@ -24,15 +24,25 @@ const Li = styled.li`
   height: 3.8rem;
   z-index: 2;
 `
-const BarLine = styled.div`
+const BarLine1 = styled.div`
   position: absolute;
   width: 26.6rem;
   height: 0.6rem;
   background-color: ${theme.backgroundGray};
   top: 1.7rem;
   z-index: 1;
+
+`
+const BarLine = styled.div`
+  position: absolute;
+  width: ${(props) => props.line < 4 ? props.line * 8.8 : 26.6}rem;
+  height: 0.6rem;
+  background-color: ${(props) => props.line ? theme.backgroundBlue : theme.backgroundGray};
+  top: 1.7rem;
+  z-index: 1;
+
 `
 
 // const Checked = (props) => { return()}
 
-export { ContainerNavProcess, Nav, Li, BarLine }
+export { ContainerNavProcess, Nav, Li, BarLine, BarLine1 }
