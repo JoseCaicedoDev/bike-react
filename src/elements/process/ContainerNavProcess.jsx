@@ -34,7 +34,7 @@ const BarLine1 = styled.div`
 `
 const BarLine = styled.div`
   position: absolute;
-  width: ${(props) => props.line > 1 && props.line <= 4 ? props.line * 8.8 : 0}rem;
+  width: ${(props) => props.line > 1 && props.line <= 4 ? (props.line - 1) * 8.8 : 0}rem;
   height: 0.6rem;
   background-color: ${(props) => props.line ? theme.accentColor : theme.backgroundGray};
   top: 1.7rem;

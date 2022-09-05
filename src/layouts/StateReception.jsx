@@ -7,7 +7,7 @@ import image3 from '../resources/images/Ellipse 9.png'
 
 function StateReception () {
   const StatusDescription = {
-    CurrentStatus: 2
+    CurrentStatus: 4
   }
   const StatusImage = {
     1: image,
