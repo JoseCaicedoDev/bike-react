@@ -7,11 +7,11 @@ const TitleState = styled.h3`
   line-height: 2.4rem;
   text-align: center;
   margin: 9rem 0;
-  color: ${theme.fontPrimary};
+  color: ${theme.secondaryColor};
 
   a {
     font-size: 2rem;
-    color: ${theme.fontPrimary};
+    color: ${theme.secondaryColor};
   }
 `
 /* const linkState = styled.a`

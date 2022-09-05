@@ -6,7 +6,7 @@ const Container = styled.div`
   justify-content: center;
   width:100%;
   height:100vh;
-  background:${theme.background};
+  background:${theme.backgroundColor};
 `
 
 export default Container

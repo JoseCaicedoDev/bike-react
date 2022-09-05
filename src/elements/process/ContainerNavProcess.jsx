@@ -17,8 +17,7 @@ const Nav = styled.div`
   position: relative;
 `
 const Li = styled.li`
-  background-color: ${(props) => props.check ? theme.backgroundBlue : theme.backgroundGray};
-  border: 1px solid ${theme.backgroundBlue};
+  background-color: ${(props) => props.check ? theme.accentColor : theme.backgroundGray};
   border-radius: 50%;
   width: 3.8rem;
   height: 3.8rem;
@@ -35,9 +34,9 @@ const BarLine1 = styled.div`
 `
 const BarLine = styled.div`
   position: absolute;
-  width: ${(props) => props.line < 4 ? props.line * 8.8 : 26.6}rem;
+  width: ${(props) => props.line > 1 && props.line <= 4 ? props.line * 8.8 : 0}rem;
   height: 0.6rem;
-  background-color: ${(props) => props.line ? theme.backgroundBlue : theme.backgroundGray};
+  background-color: ${(props) => props.line ? theme.accentColor : theme.backgroundGray};
   top: 1.7rem;
   z-index: 1;
 
