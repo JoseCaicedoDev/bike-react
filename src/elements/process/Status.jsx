@@ -19,7 +19,7 @@ function Status (props) {
       </ContainerNavProcess>
       <ImgContainer><Img src={props.imgurl} alt='#' /></ImgContainer>
       <TitleState>{props.title}</TitleState>
-      <TitleState><a href='/' target='_blank' rel='noopener noreferrer nofollow'>Contacte al Mecanico</a></TitleState>
+      <TitleState><a href='/' target='_blank' rel='noopener noreferrer nofollow'>Contacte al Mecánico</a></TitleState>
     </Container>
   )
 }
