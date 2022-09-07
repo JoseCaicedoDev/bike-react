@@ -10,6 +10,7 @@ import HomeUser from './layouts/HomeUser'
 import StateReception from './layouts/StateReception'
 import Login from './layouts/Login'
 import Register from './layouts/Register'
+import ClientMenu from './layouts/ClientMenu'
 
 const Index = () => {
   return (
@@ -24,6 +25,7 @@ const Index = () => {
           <Route path='/status' element={<StateReception />} />
           <Route path='/login' element={<Login />} />
           <Route path='/register' element={<Register />} />
+          <Route path='/clientmenu' element={<ClientMenu />} />
         </Routes>
       </Router>
     </>
