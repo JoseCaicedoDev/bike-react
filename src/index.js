@@ -21,12 +21,12 @@ const Index = () => {
           {/* Rendering the App component when the path is '/'. */}
           <Route path='/' element={<App />} />
           <Route path='/home' element={<Home />} />
-          <Route path='/homeUser' element={<HomeUser />} />
-          <Route path='/homeClient' element={<HomeClient />} />
+          <Route path='/home-user' element={<HomeUser />} />
+          <Route path='/home-client' element={<HomeClient />} />
           <Route path='/status' element={<StateReception />} />
           <Route path='/login' element={<Login />} />
           <Route path='/register' element={<Register />} />
-          <Route path='/clientmenu' element={<ClientMenu />} />
+          <Route path='/client-menu' element={<ClientMenu />} />
           <Route path='/marketplace' element={<Marketplacer />} />
         </Routes>
       </Router>

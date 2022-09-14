@@ -4,7 +4,7 @@ import ContainerHome from '../elements/ContainerHome'
 import Button from '../elements/Button'
 import ContainerInputUser from '../components/ContainerInputUser'
 import imageB from '../resources/images/Ellipse 1.png'
-import { LinkUser, Image } from '../elements/user/InputUser'
+import { LinkElement, Image } from '../elements/user/InputUser'
 
 function HomeUser () {
   return (
@@ -26,7 +26,7 @@ function HomeUser () {
             content='Contraseña'
           />
           <Button>Ingresar</Button>
-          <LinkUser href='/'>Ayuda</LinkUser>
+          <LinkElement to='/'>Ayuda</LinkElement>
         </ContainerHome>
       </Container>
     </>

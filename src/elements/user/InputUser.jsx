@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import theme from '../../themas'
 
@@ -23,11 +24,11 @@ const Label = styled.label`
 const Image = styled.img`
   margin-block-start: 1rem;
 `
-const LinkUser = styled.a`
+const LinkElement = styled(Link)`
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 1.9rem;
   color: ${theme.secondaryColor};
   margin-top: 4.6rem
 `
-export { Input, Label, Image, LinkUser }
+export { Input, Label, Image, LinkElement }

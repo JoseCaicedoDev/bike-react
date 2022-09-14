@@ -1,9 +1,37 @@
 import React from 'react'
+import Container from '../elements/Container'
+import ContainerHome from '../elements/ContainerHome'
+// import ContainerHome from '../elements/ContainerHome'
+import Button from '../elements/Button'
+import ContainerInputUser from '../components/ContainerInputUser'
+import imageA from '../resources/images/bike1.png'
+import { LinkElement, Image } from '../elements/user/InputUser'
+import Logo from '../resources/images/Logo.png'
 
 function HomeClient () {
   return (
     <>
-      <h1>Vista del Cliente</h1>
+      <Container>
+        <ContainerHome>
+          <img src={Logo} alt='' />
+          <Image src={imageA} />
+          <ContainerInputUser
+            placeholder='3289298'
+            type='text'
+            name='prueba'
+            content='Ingrese número de ticket'
+          />
+          <ContainerInputUser
+            placeholder='123123'
+            type='text'
+            name='prueba'
+            content='Ingrese su identificación'
+          />
+          <Button>Ingresar</Button>
+          {/*           <LinkElement href='/'>Ayuda</LinkElement> */}
+          <LinkElement to='/'>Ayuda</LinkElement>
+        </ContainerHome>
+      </Container>
     </>
   )
 }
