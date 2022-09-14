@@ -1,4 +1,5 @@
 const theme = {
+  backgroundGray: '#D9D9D9',
   backgroundColor: '#F1F2ED',
   primaryColor: '#6D848C',
   secondaryColor: '#444A58',
