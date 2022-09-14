@@ -12,7 +12,7 @@ export const Title = styled.h3`
 export const ContainerTitle = styled.div`
   display: flex;
   justify-content: center;
-  width: 100vw;
+  width: auto;
   height: auto;
   padding-top: 5.4rem;
 `
