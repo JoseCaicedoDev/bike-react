@@ -12,6 +12,7 @@ Aplicación web para la gestión de taller, en donde se llevará el estado repar
 
 Autores
 -------------
--GitHub [@HikenJos](https://github.com/HikenJos)
--GitHub [@JoseCaicedoDev](https://github.com/JoseCaicedoDev)
--GitHub [@Carolinuz](https://github.com/Carolinuz)
+- GitHub [@HikenJos](https://github.com/HikenJos)
+- GitHub [@JoseCaicedoDev](https://github.com/JoseCaicedoDev)
+- GitHub [@Carolinuz](https://github.com/Carolinuz)
+- GitHub [@Majoosorio](https://github.com/majoosorio)
