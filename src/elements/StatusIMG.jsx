@@ -10,7 +10,6 @@ const ImgContainer = styled.div`
   margin:auto;
   border: 6px solid ${theme.secondaryColor};
 `
-
 const Img = styled.img`
   width: 100%;
   height: 100%;

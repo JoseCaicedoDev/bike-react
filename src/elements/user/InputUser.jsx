@@ -14,21 +14,26 @@ const Input = styled.input`
   height: 5rem;
   `
 const Label = styled.label`
-  margin-bottom: 6rem;
+  margin-bottom: 2rem;
   font-weight: 400;
   font-size: 1.8rem;
   line-height: 2.1rem;
   color: ${theme.secondaryColor};
-  margin-top: 1.9rem
+  margin-top: 1.2rem
 `
 const Image = styled.img`
   margin-block-start: 1rem;
+  margin-block-end: 3.8rem
+`
+const ImageLogo = styled.img`
+  margin-block-start: 4rem;
+  margin-block-end: 1.7rem
 `
 const LinkElement = styled(Link)`
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 1.9rem;
   color: ${theme.secondaryColor};
-  margin-top: 4.6rem
+  margin-top: 1.8rem
 `
-export { Input, Label, Image, LinkElement }
+export { Input, Label, Image, LinkElement, ImageLogo }

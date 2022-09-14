@@ -5,7 +5,7 @@ import ContainerHome from '../elements/ContainerHome'
 import Button from '../elements/Button'
 import ContainerInputUser from '../components/ContainerInputUser'
 import imageA from '../resources/images/bike1.png'
-import { LinkElement, Image } from '../elements/user/InputUser'
+import { LinkElement, Image, ImageLogo } from '../elements/user/InputUser'
 import Logo from '../resources/images/Logo.png'
 
 function HomeClient () {
@@ -13,7 +13,7 @@ function HomeClient () {
     <>
       <Container>
         <ContainerHome>
-          <img src={Logo} alt='' />
+          <ImageLogo src={Logo} />
           <Image src={imageA} />
           <ContainerInputUser
             placeholder='3289298'
