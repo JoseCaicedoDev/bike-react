@@ -15,5 +15,12 @@ const Img = styled.img`
   height: 100%;
   object-fit: fill;
 `
-
-export { ImgContainer, Img }
+const ImgContainerState = styled.div`
+  width: 12.3rem;
+/*   height:12.3rem; */
+  object-position:center;
+  border-radius: 50%;
+  margin:auto;
+  padding-top: 5.9rem;
+`
+export { ImgContainer, Img, ImgContainerState }

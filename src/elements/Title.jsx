@@ -6,7 +6,7 @@ export const Title = styled.h3`
   font-size: 2rem;
   line-height: 2.42rem;
   text-align: center;
-  color: ${theme.secondaryColor}
+  color: ${theme.secondaryColor};
 `
 
 export const ContainerTitle = styled.div`
@@ -15,4 +15,5 @@ export const ContainerTitle = styled.div`
   width: auto;
   height: auto;
   padding-top: 5.4rem;
+  margin-bottom: 6.5rem;
 `
