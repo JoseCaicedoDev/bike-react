@@ -12,6 +12,7 @@ import Login from './layouts/Login'
 import Register from './layouts/Register'
 import ClientMenu from './layouts/ClientMenu'
 import Marketplacer from './layouts/MarketPlacer'
+import MechanicState from './layouts/MechanicState'
 
 const Index = () => {
   return (
@@ -28,6 +29,7 @@ const Index = () => {
           <Route path='/register' element={<Register />} />
           <Route path='/client-menu' element={<ClientMenu />} />
           <Route path='/marketplace' element={<Marketplacer />} />
+          <Route path='/mechanic-state' element={<MechanicState />} />
         </Routes>
       </Router>
     </>

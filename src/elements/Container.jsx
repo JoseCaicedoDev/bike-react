@@ -8,7 +8,8 @@ const Container = styled.div`
   height:100vh;
   background:${theme.backgroundColor};
   max-width: 380px;
-  margin: 0 auto
+  margin: 0 auto;
+  //position: relative;
 `
 
 export default Container
