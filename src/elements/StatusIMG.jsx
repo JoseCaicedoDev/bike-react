@@ -8,7 +8,8 @@ const ImgContainer = styled.div`
   object-position:center;
   border-radius: 50%;
   margin:auto;
-  border: 6px solid ${theme.secondaryColor};
+  border: ${(props) => props.noBorder ? 'none' : `6px solid ${theme.secondaryColor}`};
+  margin-bottom: ${(props) => props.marginBottom ? '5rem' : '0'}
 `
 
 const Img = styled.img`

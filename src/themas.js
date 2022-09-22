@@ -6,7 +6,8 @@ const theme = {
   lightColor: '#CDD1D2',
   lightAccentColor: '#CFC6C1',
   accentColor: '#E49061',
-  boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.15)'
+  boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.15)',
+  fontPrimary: '#FFFFFF'
 }
 
 export default theme
